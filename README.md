@@ -16,3 +16,6 @@ the previous game. A volume has been mounted in the Docker image so that the gam
 **Development**<br>
 I have included a series of shell scripts to help standardize the development workflow in this
 project. Each is labeled based on their actionable purpose. 
+- *debug.sh*: runs the program without creating a daemon; prompts logging from running program
+- *run.sh*: very similar to debug.sh except records from run don't persist
+- 
