@@ -21,7 +21,7 @@ project. Each is labeled based on their actionable purpose.
 - *persist.sh*: runs program as intended; keeps record of the cumulative score and player attempts
 - *stop.sh*: stops the number_guess program
 - *shell.sh*: stops the currently running program and reboots program with shell access inside container (debugging)
-- *clean_persist_volumn*: purges the volume within the program; resets score records
+- *clean_persist_volumn.sh*: purges the volume within the program; resets score records
 
 **Next Steps**<br>
 I intend to introduce a new layer to the persistent program; score & attempts by player. When the program
