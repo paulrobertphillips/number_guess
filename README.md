@@ -14,4 +14,5 @@ environment. Docker handles the storage of cumulative score and number of attemp
 the previous game. A volume has been mounted in the Docker image so that the game can persist.
 
 **Development**<br>
-I have included a series 
+I have included a series of shell scripts to help standardize the development workflow in this
+project. Each is labeled based on their actionable purpose. 
